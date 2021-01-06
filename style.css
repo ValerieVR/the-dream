@@ -23,6 +23,7 @@ body {
     text-align: center;
     margin-right: 250px;
     background-color: #ffffff;
+    border: solid #000000;
 }
 
 h1 {
@@ -31,5 +32,6 @@ h1 {
     font-weight: normal;
     color: #ffffff;
     background-color: #000097;
+    border-bottom: solid #000000;
 }
 
