@@ -22,5 +22,12 @@ body {
     height: 500px;
     text-align: center;
     margin-right: 250px;
-    background-color: white;
+    background-color: #000097;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 15px;
 }
