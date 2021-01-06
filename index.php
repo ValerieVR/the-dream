@@ -12,16 +12,18 @@
         <h1>Currency Converter</h1>
         <form action="" method="post">
             <select name="from" id="from-currency">
+            <option value="text">Select Currency</option>
             <option value="twndllr">TWD - New Taiwan Dollar</option>
             <option value="usdllr">USD - United States Dollar</option>
             <option value="euro">EUR - Euro</option>
             </select><br><br>
             <select name="to" id="to-currency">
+            <option value="text">Select Currency</option>
             <option value="usdllr">USD - United States Dollar</option>
             <option value="twndllr">TWD - New Taiwan Dollar</option>
             <option value="euro">EUR - Euro</option>
             </select><br><br>
-            <input type="text" name="amount" value="" id="amount"><br><br>
+            <input type="text" name="amount" value="" id="amount" placeholder="Enter an amount ..."><br><br>
             <input type="submit" name="convert" value="Convert" id="submit-bttn"><br><br>
             <button type="button" id="swap-bttn">Swap</button>
         </form>
