@@ -51,11 +51,19 @@ form {
     color: #ffffff
 }
 
+#amount {
+    height: 80px;
+    border: solid #000097;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
 #convert-bttn {
-    background-color:#000097 ;
+    background-color: #fe0000
 }
 
 #swap-bttn {
-    background-color: #fe0000;
+    background-color:#000097 ;
 }
 
