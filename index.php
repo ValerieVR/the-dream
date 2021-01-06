@@ -24,9 +24,12 @@
             <option value="euro">EUR - Euro</option>
             </select><br><br>
             <input type="text" name="amount" value="" id="amount" placeholder="Enter amount ..."><br><br>
-            <input type="submit" name="convert" value="Convert" id="convert-bttn"><br><br>
+            <input type="submit" name="convert" value="Convert" id="convert-bttn">
             <button type="button" id="swap-bttn">Swap</button>
         </form>
+        <div id="display-conversion">
+            <h6>Conversion:</h6>
+        </div>
     </div>
 </body>
 </html>
