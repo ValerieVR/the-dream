@@ -39,4 +39,23 @@ form {
     margin-top: 20px;
 }
 
+#amount, #from-currency, #to-currency, #convert-bttn, #swap-bttn {
+    width: 250px;
+}
+
+#convert-bttn, #swap-bttn {
+    border: solid #000000;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 18px;
+    color: #ffffff
+}
+
+#convert-bttn {
+    background-color:#000097 ;
+}
+
+#swap-bttn {
+    background-color: #fe0000;
+}
 
