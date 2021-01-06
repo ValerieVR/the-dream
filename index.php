@@ -23,7 +23,7 @@
             <option value="twndllr">TWD - New Taiwan Dollar</option>
             <option value="euro">EUR - Euro</option>
             </select><br><br>
-            <input type="text" name="amount" value="" id="amount" placeholder="Enter an amount ..."><br><br>
+            <input type="text" name="amount" value="" id="amount" placeholder="Enter amount ..."><br><br>
             <input type="submit" name="convert" value="Convert" id="submit-bttn"><br><br>
             <button type="button" id="swap-bttn">Swap</button>
         </form>
