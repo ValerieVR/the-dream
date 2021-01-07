@@ -26,7 +26,7 @@
             <option value="usdllr">USD - United States Dollar</option>
             <option value="euro">EUR - Euro</option>
             </select><br><br>
-            <input type="text" name="amount" value="" id="amount" placeholder="Enter amount ..."><br><br>
+            <input type="text" name="amount" value="" id="amount" placeholder="Enter amount ..." autocomplete="off"><br><br>
             <input type="submit" name="convert" value="Convert" id="convert-bttn">
             <button type="button" id="swap-bttn">Swap</button>
         </form>
