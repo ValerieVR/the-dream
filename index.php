@@ -8,6 +8,9 @@
     <title>Currency Converter</title>
 </head>
 <body>
+    <div id="taiwan-flag">
+        <img src="img/flag.png" alt="taiwanese flag">
+    </div>
     <div id="converter">
         <h1>Currency Converter</h1>
         <form action="" method="post">

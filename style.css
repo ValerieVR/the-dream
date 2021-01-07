@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -11,7 +10,6 @@
 body {
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
     min-height: 100vh;
     min-width: 100%;
     background-image: url(img/lantern.jpg);
@@ -20,7 +18,15 @@ body {
     background-size: cover;
 }
 
+#taiwan-flag {
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+}
+
 #converter {
+    position: absolute;
+    right: 0px;
     width: 300px;
     height: 510px;
     text-align: center;
@@ -62,14 +68,6 @@ form {
     text-align: center;
 }
 
-#convert-bttn {
-    margin-bottom: 10px;
-}
-
-#swap-bttn {
-    margin-bottom: 7px;
-}
-
 #convert-bttn, #swap-bttn {
     border: solid #000000;
     border-radius: 5px;
@@ -79,10 +77,12 @@ form {
 }
 
 #convert-bttn {
+    margin-bottom: 10px;
     background-color: #fe0000
 }
 
 #swap-bttn {
+    margin-bottom: 7px;
     background-color:#000097 ;
 }
 
