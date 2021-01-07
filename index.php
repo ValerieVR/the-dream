@@ -28,7 +28,7 @@
             </select><br><br>
             <input type="text" name="amount" value="" id="amount" placeholder="Enter amount ..." autocomplete="off"><br><br>
             <input type="submit" name="convert" value="Convert" id="convert-bttn">
-            <input type="submit" name="swap" value="Swap" id="swap-bttn">
+            <button type="submit" name="swap" value="Swap" id="swap-bttn">Swap</button>
         </form>
         <div id="display-conversion">
             <h6>Conversion:</h6>
