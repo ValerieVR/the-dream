@@ -33,6 +33,7 @@
         <div id="display-conversion">
             <h6>Conversion:</h6>
             <?php require_once "convert.php";?>
+            <?php require_once "swap.php";?>
         </div>
     </div>
 </body>
